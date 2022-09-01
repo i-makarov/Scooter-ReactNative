@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cfes-dev-131916-authRole",
+      "UnauthRoleArn": "arn:aws:iam::005522987172:role/amplify-cfes-dev-131916-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::005522987172:role/amplify-cfes-dev-131916-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-cfes-dev-131916-deployment",
+      "UnauthRoleName": "amplify-cfes-dev-131916-unauthRole",
+      "StackName": "amplify-cfes-dev-131916",
+      "StackId": "arn:aws:cloudformation:eu-north-1:005522987172:stack/amplify-cfes-dev-131916/1d519f40-7daf-11ec-9933-0ecf27d10498",
+      "AmplifyAppId": "d2rixoev8qfh1w"
+    },
+    "categories": {
+      "auth": {
+        "cfesc5b27987": {},
+        "cfesd950e53b": {},
+        "cfes19076f8b": {}
+      },
+      "function": {
+        "myFirstLambda": {
+          "deploymentBucketName": "amplify-cfes-dev-131916-deployment",
+          "s3Key": "amplify-builds/myFirstLambda-2b6c7062597758476b33-build.zip"
+        }
+      }
+    }
+  }
+}

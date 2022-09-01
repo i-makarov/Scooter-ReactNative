@@ -1,0 +1,21 @@
+type Places @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  model: String
+  price: Int
+  isAvailable: Boolean
+}
+
+type Stations @model @auth(rules: [{allow: private, operations: [read]}]) {
+  id: ID!
+  name: String
+  address: String
+  latitude: Float
+  longitude: Float
+}
+
+type Users @model @auth(rules: [{allow: private}]) {
+  id: ID!
+  email: String
+  bonuses: String
+}
+ 
